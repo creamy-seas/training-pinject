@@ -1,6 +1,6 @@
 # Pinject Basic Template #
 
-This is a simple pinject project template with exmaples of the following:
+This is a simple pinject project template with examples of the following:
 - basic file structure
 - build an object graph
 - use a library manager to bind 3rd party libraries
@@ -18,10 +18,10 @@ class_instance = AppStart.run('write_something')
 ```
 
 Then we can run any of the commands in the app_manager:
-- run_print_process
-- run_print_process_with_init
-- run_print_process_with_delay
-- run_print_process_with_config
+- run_print_process(str)
+- run_print_process_with_init()
+- run_print_process_with_delay(str, int)
+- run_print_process_with_config()
 
 ``` python-console
 class_instance.run_print_process('hello')
