@@ -1,0 +1,17 @@
+"""
+Import all modules to build pinject object graph
+"""
+# disabling unused import rule:
+# pylint: disable=W0613,W0611,R0201
+
+import pinject 
+
+from app.utils.app_logger import AppLogger
+from app.processes.print_process import PrintProcess
+from app.decorators.delay_decorator import DelayDecorator
+from app.utils.library_providers.libraries_manager import LibrariesManager
+from app.utils.config.app_config import AppConfig
+
+class AppObjectGraphBuilder():
+    def get_app_object_graph(self, binding_specs):
+        return pinject.new_object_graph(binding_specs=binding_specs)
