@@ -30,10 +30,11 @@ class_instance.run_print_process('hello')
 ### Tests: ###
 
 Make sure tests run successfully before commiting, CI will soon be set up to do this.
+
+In terminal run nosetests in parent directory (setup.cfg for the config options)
 ```bash
 nosetests
 ```
-(nosetests looks in setup.cfg for config options)
 
 For individual test files
 ```bash
