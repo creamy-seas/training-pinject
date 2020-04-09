@@ -1,14 +1,12 @@
 # Pinject Basic Template #
 
-This is a simple pinject project template showcasing:
+This is a simple [pinject](https://github.com/google/pinject) project template showcasing:
 - A basic project structure
 - Dependency injection of both **custom-classes**, **custom-config-files** and **3rd party libraries**
-- Realising a logger and decorator in the pinject framework
+- Realisation of a logger and decorator
 
-    > The best documentation on this topic can be found on [google's pinject github page](https://github.com/google/pinject)
+## Running: ##
 
-
-### Running: ###
 All of the python code builds into a single **entrypoint**, which is called `app` in the following snippets. To build the `app` run
 
 ``` python-console
