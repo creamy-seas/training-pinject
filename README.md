@@ -28,7 +28,8 @@ app.run_print_process_with_config()
 ## Tests: ##
 In terminal run nosetests in the root directory. Configurations for the test can be set in [setup.cfg](./setup.cfg)
 ```bash
-nosetests
+# --with-cover produces an html of the test results
+nosetests --with-cover
 ```
 
 To run individual test files
