@@ -1,5 +1,5 @@
 """
-Manages the methods of the class
+File that exposes/defines all the methods that can be called by the application
 """
 
 #pylint: disable=C

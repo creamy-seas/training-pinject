@@ -1,5 +1,5 @@
 """
-Import all modules to build pinject object graph
+Import all modules (i.e. classes and functions) used in the project
 """
 # disabling unused import rule:
 # pylint: disable=W0613,W0611,R0201
