@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import Mock
 from unittest.mock import MagicMock
 
-from app_start import AppStart
+from app_builder import AppBuilder
 from app_manager import AppManager
 
 
@@ -11,13 +11,13 @@ class AppStart_Tests(unittest.TestCase):
         self.init_details = MagicMock(return_value="hello")
         self.input_text = MagicMock(return_value="test")
         self.seconds_to_delay = MagicMock(return_value=1)
-        self.sut = AppStart
+        self.sut = AppBuilder
 
     def tearDown(default):
         pass
 
     def test_init(self):
-        test = self.sut.run(self.init_details)
+        test = self.sut.build(self.init_details)
         assert isinstance(test, AppManager)
         test.run_print_process_with_delay(self.input_text, self.seconds_to_delay)
         test.run_print_process_with_config()
