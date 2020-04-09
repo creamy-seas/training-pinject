@@ -41,3 +41,12 @@ Run `pylint` to ensure that project follows [google python style guide](https://
 pylint app
 ```
 
+# File description #
+| **File**                                               | **Description** |
+|:-------------------------------------------------------|:----------------|
+| `app.conf`                                             |                 |
+| `app_builder.py`                                       |                 |
+| `app_manager.py`                                       |                 |
+| `app/app_object_graph_builder.py`                      |                 |
+| `app/utils/binding_specs/init_details_binding_spec.py` |                 |
+| `app/utils/config/app_config.py`                       |                 |
