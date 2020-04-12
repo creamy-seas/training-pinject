@@ -7,7 +7,8 @@ Managing the third party libraries e.g. selenium, config parser
 
 import pinject
 
-class LibrariesManager():
+
+class LibrariesManager:
     @pinject.copy_args_to_public_fields
-    def __init__(self, config_parser):
+    def __init__(self, config_parser, pandas):
         pass

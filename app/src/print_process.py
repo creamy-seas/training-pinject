@@ -1,5 +1,5 @@
 """
-Process to print into commandline
+Class that prints to stdout
 """
 # pylint: disable=C
 import pinject

@@ -1,7 +1,10 @@
-"""Logger"""
+"""
+Class that prints timestamp and custom message to stdout
+"""
 from datetime import datetime
 
-class AppLogger():
+
+class AppLogger:
     def __init__(self):
         pass
 
