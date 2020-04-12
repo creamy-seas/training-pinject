@@ -10,7 +10,7 @@ This is a simple [pinject](https://github.com/google/pinject) project template s
 All of the python code builds into a single **entrypoint**, which is called `app` in the following snippets. To build the `app` run
 
 ``` python-console
-from app_build import AppBuilder
+from app_builder import AppBuilder
 app = AppBuilder.build('Some kind of init details')
 ```
 
