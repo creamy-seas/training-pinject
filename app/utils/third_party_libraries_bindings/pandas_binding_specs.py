@@ -8,7 +8,7 @@ import pandas
 
 class PandasBindingSpec(pinject.BindingSpec):
     def configure(self, bind):
-        bind("pandas", to_class=PandasWrapper)
+        bind("extlib_pandas", to_class=PandasWrapper)
 
 
 class PandasWrapper:

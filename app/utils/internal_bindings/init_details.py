@@ -1,5 +1,5 @@
 """
-Class to build the app with some initial details passed in as arguments
+Class that binds `init_details` to a field set by the user
 """
 
 # pylint: disable=C

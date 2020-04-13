@@ -7,7 +7,7 @@ import pinject
 
 class ConfigParserBindingSpec(pinject.BindingSpec):
     def configure(self, bind):
-        bind("config_parser", to_class=ConfigParserWrapper)
+        bind("extlib_config_parser", to_class=ConfigParserWrapper)
 
 
 class ConfigParserWrapper:

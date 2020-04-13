@@ -6,7 +6,7 @@ Class that loads configuration from file `app.conf`
 
 class AppConfig:
     def __init__(self, libraries_manager):
-        self.config_parser = libraries_manager.config_parser.config_parser()
+        self.config_parser = libraries_manager.extlib_config_parser.config_parser()
         self.read_config_data()
 
     def read_config_data(self):

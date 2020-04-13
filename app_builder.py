@@ -24,7 +24,7 @@ from app.decorators.delay_decorator import DelayDecorator
 from app.utils.libraries_manager import LibrariesManager
 from app.utils.config.app_config import AppConfig
 
-from app_manager import AppManager
+from app.app_manager import AppManager
 
 
 class AppBuilder:
