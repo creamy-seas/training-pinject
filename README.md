@@ -1,10 +1,12 @@
 # Pinject Basic Template #
 
 This is a simple [pinject](https://github.com/google/pinject) project template showcasing:
-- A basic project structure
-- Dependency injection of both **custom-classes**, **custom-config-files** and **3rd party libraries**
-- Realisation of a logger and decorator
+- A basic project structure with dependency injection to **custom-classes**, **custom-config-files** and **3rd party libraries**
 - Please see [**Confluence page on pinject**](https://dreamsai.atlassian.net/wiki/spaces/CD/pages/51806219/Pinject) for a diagram and thorough explanation of how it works
+- Please see [this folder](https://drive.google.com/drive/u/0/folders/1pyOLMyfwYCrm6LWFglNalZDZ25fue9lR) for the supplementary diagrams
+
+![pinject_diagramg](https://drive.google.com/uc?export=view&id=1oUh8p8bVmRwuXtNlznkWG0Ak_192M_KN)
+
 
 ## Running: ##
 
