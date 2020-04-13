@@ -17,7 +17,7 @@ from app_builder import AppBuilder
 app = AppBuilder.build('Some kind of init details')
 ```
 
-after which you will have access to all of the methods that were defined in [app_manager.py](./app_manager.py):
+after which you will have access to all of the methods that were defined in [app_manager.py](./app/app_manager.py):
 
 ``` python-console
 app.run_print_process('Industrial Revolution has been a disaster for the hooman race')
