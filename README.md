@@ -4,6 +4,7 @@ This is a simple [pinject](https://github.com/google/pinject) project template s
 - A basic project structure
 - Dependency injection of both **custom-classes**, **custom-config-files** and **3rd party libraries**
 - Realisation of a logger and decorator
+- Please see [**Confluence page on pinject**](https://dreamsai.atlassian.net/wiki/spaces/CD/pages/51806219/Pinject) for a diagram and thorough explanation of how it works
 
 ## Running: ##
 
@@ -21,18 +22,13 @@ app.run_print_process('Industrial Revolution has been a disaster for the hooman 
 app.run_print_process_with_init()
 app.run_print_process_with_delay('Prints with a delay of three seconds', 3)
 app.run_print_process_with_config()
+app.run_example_pandas()
 ```
 
 ## Tests: ##
-In terminal run nosetests in the root directory. Configurations for the test can be set in [setup.cfg](./setup.cfg)
+In terminal run nosetests in the root directory
 ```bash
-# --with-cover produces an html of the test results
-nosetests --with-cover
-```
-
-To run individual test files
-```bash
-python -m unittest tests.api_tests.resources_tests.accounts_resource_tests
+nosetests
 ```
 
 ## Linting: ##
@@ -40,13 +36,3 @@ Run `pylint` to ensure that project follows [google python style guide](https://
 ```bash
 pylint app
 ```
-
-# File description #
-| **File**                                               | **Description** |
-|:-------------------------------------------------------|:----------------|
-| `app.conf`                                             |                 |
-| `app_builder.py`                                       |                 |
-| `app_manager.py`                                       |                 |
-| `app/app_object_graph_builder.py`                      |                 |
-| `app/utils/binding_specs/init_details_binding_spec.py` |                 |
-| `app/utils/config/app_config.py`                       |                 |
