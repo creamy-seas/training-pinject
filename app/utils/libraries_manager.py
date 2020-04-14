@@ -2,9 +2,6 @@
 Managing the third party libraries e.g. selenium, config parser
 """
 
-# if using pylint disable the too many arguements rule
-# pylint: disable=R
-
 import pinject
 
 

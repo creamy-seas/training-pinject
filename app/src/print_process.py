@@ -1,7 +1,7 @@
 """
 Class that prints to stdout
 """
-# pylint: disable=C
+# pylint: disable=C,E
 import pinject
 
 
